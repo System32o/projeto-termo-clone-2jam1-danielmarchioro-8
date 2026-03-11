@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termo Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Termo Clone</h1>
+
+    <h2 id="score">Placar: 0</h2>
+        <button onclick="resetScore()" class="reset-btn">Resetar Placar</button>
+
+        <div class="game-container">
+            <div id="board" class="board"></div>
+            <div id="message" class="message"></div>
+            <div id="dino-mascot" class="dino-mascot">🦕</div>
+            <div id="used-letters" class="used-letters"></div>
+        </div>
+
+        <button id="help-btn" class="help-btn">?</button>
+
+        <div id="help-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Como Jogar</h2>
+                <p>Descubra a palavra certa em 6 tentativas.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
